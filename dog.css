@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#get-button, #next-button, #dog-name{
+    margin: 10px;
+    font-size: 50px;
+}
+#dog-name{
+    height: auto;
+    width: auto;
+}
+#dog-image-container{
+    height:400px;
+    width: 400px;
+    border: 1px solid black;
+
+}
+#dog-image{
+    height: 100%;
+    width: 100%;
+}
